@@ -52,7 +52,7 @@ You will need to install the following ROS packages:
 - `realsense-ros`: ROS drivers for Intel RealSense cameras.
 - `moveit`: For motion planning and control of the robotic arm.
 
-## Installation
+# Installation
 
 
 # Expected project structure:
