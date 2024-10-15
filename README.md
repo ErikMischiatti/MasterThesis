@@ -56,28 +56,13 @@ You will need to install the following ROS packages:
 
 
 # Expected project structure:
- catkin_ws/
- ├── src/
- │   ├── <your_package_name>/  # Main package containing all the project code
- │   │   ├── launch/           # Launch files for various system components
- │   │   ├── scripts/          # Python scripts for task execution and learning
- │   │   ├── config/           # Configuration files (e.g., for camera, robot)
- │   │   ├── urdf/             # URDF models for the robot and objects
- │   │   └── msg/              # Custom ROS messages and services
- │   └── other_packages/       # Additional ROS packages used in the project
- ├── README.md                 # This file
- ├── .gitignore                # Files and directories to ignore in the repository
- └── CMakeLists.txt            # CMake configuration for the ROS workspace
+
 
 # Future Work:
- - Extend the system to handle multi-object manipulation, enabling the robot to interact with multiple objects simultaneously.
- - Implement advanced error recovery mechanisms to detect and correct errors during task execution.
- - Improve the generalization of the learned tasks, allowing the robot to apply learned behaviors to new and unseen scenarios.
 
 
 # Acknowledgements:
  I would like to express my gratitude to:
- - My supervisor at the Technical University of Vienna (TUW) for their guidance and feedback.
+ - My supervisor and the Phd students at the Technical University of Vienna (TUW) for their guidance and feedback.
  - The University of Trento for the education and support provided during my Mechatronic Engineering studies.
- - The ROS and Franka open-source communities for providing invaluable tools and resources for this project.
 
